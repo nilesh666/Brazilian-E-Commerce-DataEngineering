@@ -9,7 +9,9 @@
  getOrCreate() in a notebook with an existing session, only
  runtime SQL configs (like shuffle partitions) will apply.
 
+```python
 from pyspark.sql import SparkSession
+
 spark = SparkSession.builder \
     .appName("Olist Ecommerce Performance Optimization") \
 
